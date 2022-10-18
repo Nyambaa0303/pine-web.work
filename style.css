@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: "poppins";
+    margin: 0;
+}
+
+@font-face {
+
+    font-family: "poppins";
+    src: url("./Poppins/Poppins-Light.ttf");
+}
+
+.container {
+
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}
+
+
+/* Home Bar */
+
+.HomeBar {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.HomeBar ul {
+
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    color: #394149;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.Bar {
+
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.home {
+
+    width: 70%;
+
+}
+
+.HomeBar img {
+
+    color: #063255;
+}
+
+.buttonBar {
+
+    background: rgba(245, 138, 7, 0.1);
+    font-style: normal;
+    font-weight: 600;
+    color: #F58A07;
+    font-size: 16px;
+    width: 173px;
+    height: 52px;
+    top: 16px;
+    border-radius: 31px;
+    cursor: pointer;
+    border: rgba(245, 138, 7, 0.1);
+}
+
+/* Section Header */
+
+.header {
+
+    background: #DCEAF5;
+    height: 703px;
+    top: 84px;
+
+
+}
+
+.headerLeft {
+
+    width: 50%;
+
+}
+
+.header img {
+
+    width: 50%;
+    width: 747px;
+    height: 618px;
+}
+
+.Left {
+
+    display: flex;
+}
+
+.headerLeft h1 {
+
+    font-weight: 600;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 72px;
+    color: #1D3444;
+    letter-spacing: -0.03em;
+
+}
+
+.headerLeft p {
+
+    width: 571px;
+    height: 60px;
+    left: 321px;
+    top: 357px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+}
+
+.headerButton {
+
+
+ width: 199px;
+    height: 54px;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.headerButton button {
+
+   
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    background: #F58A07;
+    border-radius: 27px;
+    color: #FFFFFF;
+    border: #DCEAF5 ;
+}
+
+.headerButton a{
+
+    font-style: normal;
+font-weight: 600;
+font-size: 16px;
+color: #1D3444;
+text-decoration: none;
+align-items: center;
+}
