@@ -1,0 +1,51 @@
+.HomeBar {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.HomeBar ul {
+
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    color: #394149;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.Bar {
+
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.home {
+
+    width: 70%;
+
+}
+
+.HomeBar img {
+
+    color: #063255;
+}
+
+.buttonBar {
+
+    background: rgba(245, 138, 7, 0.1);
+    font-style: normal;
+    font-weight: 600;
+    color: #F58A07;
+    font-size: 16px;
+    width: 173px;
+    height: 52px;
+    top: 16px;
+    border-radius: 31px;
+    cursor: pointer;
+    border: rgba(245, 138, 7, 0.1);
+}
