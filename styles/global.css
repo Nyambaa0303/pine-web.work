@@ -3,15 +3,14 @@
 }
 
 body {
-
-    font-family: "poppins";
+    font-family:"Poppins" ;
     margin: 0;
 }
 
-@font-face {
+@font-face{
 
-    font-family: "poppins";
-    src: url("./Poppins/Poppins-Light.ttf");
+     font-family: "Poppins";
+   
 }
 
 .container {
@@ -19,4 +18,12 @@ body {
     max-width: 1280px;
     width: 100%;
     margin: auto;
+   
 }
+
+a{
+
+    text-decoration: none;
+}
+
+
