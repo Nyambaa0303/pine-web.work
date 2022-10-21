@@ -1,0 +1,95 @@
+.test {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.test-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.test-job {
+    width: 50%;
+}
+
+.test-detail {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+
+
+}
+
+.test-p {
+    width: 70%;
+}
+
+.test-cover {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 441px;
+    background: rgba(193, 228, 255, 0.3);
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.test-input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.test-input input {
+    width: 628px;
+    height: 54px;
+    background-color: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    border: rgba(210, 218, 237, 0.17);
+   
+}
+
+#area {
+    height: 215px;
+    width: 100%;
+    background: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    border: rgba(210, 218, 237, 0.17);
+    ;
+}
+
+.test-h5 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: #5B5B5B;
+
+}
+
+.test-h5 h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 108.5%;
+    color: #F58A07;
+}
+
+.test-button {
+    width: 119px;
+    height: 54px;
+    background-color: #F58A07;
+    border-radius: 31px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.test-cash{
+    width: 30%;
+}

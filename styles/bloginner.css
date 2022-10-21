@@ -1,0 +1,45 @@
+
+.story-man {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.story-man img {
+    width: 32px;
+    height: 32px;
+}
+
+.story-man h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #394149;
+    opacity: 0.87;
+}
+
+.story-man p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #394149;
+    opacity: 0.87;
+}
+
+.story-img img{
+
+    width: 100%;
+}
+.story{
+    width:55%;
+}
+.story-back{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}

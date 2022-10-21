@@ -425,7 +425,7 @@
 }
 
 .video-profile{
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -441,6 +441,13 @@ margin-top: 25px;
 .video-profile h4{
 margin-bottom: 0;
 }
+.video-text p{
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+color: #F58A07;
+}
+
 
 /* last section */
 
@@ -473,11 +480,4 @@ margin-bottom: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-}
-
-/* footer. */
-
-footer{
-    background-color:  #063255;
-    height: 463px;
 }

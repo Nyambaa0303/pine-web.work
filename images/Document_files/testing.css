@@ -1,0 +1,39 @@
+.test {
+    width: 100%;
+}
+
+.test-job {
+    display: flex;
+    justify-content: space-between;
+}
+
+.test-cash {
+    display: flex;
+    justify-content: space-between;
+}
+
+.test-detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.test-input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.test-input input{
+    width: 628px;
+    height: 54px;
+    background-color: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    border: rgba(210, 218, 237, 0.17);;
+}
+
+#area{
+    height: 215px;
+    width: 100%;
+background: rgba(210, 218, 237, 0.17);
+border-radius: 27px;
+}
