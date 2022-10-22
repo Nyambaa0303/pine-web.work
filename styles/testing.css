@@ -48,6 +48,7 @@
     background-color: rgba(210, 218, 237, 0.17);
     border-radius: 27px;
     border: rgba(210, 218, 237, 0.17);
+    margin-bottom: 40px;
    
 }
 
@@ -57,7 +58,7 @@
     background: rgba(210, 218, 237, 0.17);
     border-radius: 27px;
     border: rgba(210, 218, 237, 0.17);
-    ;
+    margin-bottom: 30px;
 }
 
 .test-h5 {

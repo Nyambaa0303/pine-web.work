@@ -165,7 +165,6 @@
 }
 
 .list {
-
     width: 30%;
     height: 340px;
     background-color: #FFFFFF;
@@ -175,12 +174,10 @@
 }
 
 .feaures-face {
-
     height: 600px;
 }
 
 .list p {
-
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -191,7 +188,6 @@
 /* about section */
 
 .about {
-
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -202,7 +198,6 @@
 }
 
 .number div {
-
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -227,7 +222,6 @@
 }
 
 .about-left {
-
     width: 100%;
 }
 
@@ -240,7 +234,6 @@
 }
 
 .number div::after {
-
     content: "\002B";
 }
 
@@ -264,15 +257,12 @@
 }
 
 .service-button {
-
     display: flex;
     justify-content: space-between;
     width: 86%;
-
 }
 
 .service-cover {
-
     width: 50%;
 }
 
@@ -282,7 +272,6 @@
 }
 
 .service-color {
-
     width: 120px;
     height: 466px;
     background: #F58A07;
@@ -291,8 +280,7 @@
 }
 
 .service-button div {
-
-    width: 155px;
+   width: 155px;
     height: 40px;
     border: 1px solid #A8BCCC;
     border-radius: 31px;
@@ -317,60 +305,55 @@
     font-size: 16px;
     line-height: 24px;
     color: #F58A07;
-
 }
 
-.cta {
+/* cta section */
 
-    display: flex;
-}
-
-.cta-photo img {
-    width: 700px;
-    height: 518px;
-}
-
-.cta-text {
-
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.cta{
     background-color: #F58A07;
-    width: 960px;
+    width: 100%; 
+    display: flex;
+}
+.photo{
+    background: url("../images/experience-image.png");
+    width: 50%;
     height: 518px;
 }
-
-.cta-text h3 {
-
-    width: 532px;
-    height: 168px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 56px;
-    letter-spacing: -0.03em;
-    color: #FFFFFF;
-
+.text{
+    width: 50%;
 }
-
-.cta-button {
-    width: 216px;
-    height: 54px;
-    background-color: #FFFFFF;
-    border-radius: 31px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    color: #F58A07;
+.text-size{
+    width: 60%;
+    height: 518px;
+    margin-left: 60px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
-
+.text-size h3{
+    font-weight: 600;
+font-size: 48px;
+line-height: 56px;
+letter-spacing: -0.03em;
+color: #FFFFFF;
+}
+.text-size div{
+    font-style: normal;
+font-weight: 600;
+font-size: 16px;
+text-transform: capitalize;
+color: #F58A07;
+width: 216px;
+height: 54px;
+background: #FFFFFF;
+border-radius: 31px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
 /* video section */
 
 .video-right-side {
-
     background: url("../images/video-image.png");
     background-repeat: no-repeat;
     width: 620px;
@@ -388,13 +371,11 @@
 }
 
 .video-right-side img {
-
     width: 17px;
     height: 17px;
 }
 
 .video-play {
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -428,8 +409,7 @@
     width: 40%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-     
+    justify-content: space-between;     
 }
 
 .video-profile img{
@@ -448,7 +428,6 @@ font-size: 18px;
 color: #F58A07;
 }
 
-
 /* last section */
 
 .articles{
@@ -456,18 +435,16 @@ color: #F58A07;
     justify-content: space-between;
 }
 .last-cover{
-
     background-color: #DCEAF5;
     height: 819px;
 }
 .last{
-
     width: 100%;
     padding-top: 50px;
 }
 .last-card{
     width: 30%;
-    height: 507px;
+    height: 537px;
     background-color: #FFFFFF;
     border-radius: 20px;
 }
@@ -477,7 +454,5 @@ color: #F58A07;
 }
 
 .last-card div{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    padding-left: 40px;
 }

@@ -1,0 +1,74 @@
+.contact-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+}
+.top-left{
+    width: 40%;
+}
+
+h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -0.03em;
+    color: #1D3444;
+    
+}
+
+h5{
+
+    font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: -0.03em;
+color: #0D1317;
+
+}
+
+.contact-bottom {
+    display: flex;
+
+}
+
+.contact-bottom input {
+    width: 605px;
+    height: 54px;
+    background-color: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    border: #fff;
+    margin-bottom: 30px;
+}
+
+#text-area {
+    width: 605px;
+    height: 160px;
+    background-color: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+}
+
+iframe{
+    border-radius: 20px;
+}
+.contact{
+    margin-bottom: 100px;
+}
+.button div{
+    width: 119px;
+height: 54px;
+background: #F58A07;
+border-radius: 31px;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
