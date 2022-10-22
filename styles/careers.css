@@ -47,7 +47,6 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: ;
     
 }
 
@@ -62,7 +61,15 @@
     border-radius: 20px;
     padding-left: 50px;
     margin-bottom: 30px;
+    transition: 1s;
 }
+
+.card:hover{
+    opacity: 0.8;
+    transition: 0.5s;
+    background: rgba(122, 122, 122, 0.292);
+}
+
 .empy{
     width: 400px;
     height: 210px;
@@ -110,3 +117,4 @@
    padding-left: 40px;
    padding-right: 20px;
 }
+

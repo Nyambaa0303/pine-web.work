@@ -108,7 +108,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 28px;
-    color: #1D3444;
+    color: #1d3444;
 }
 
 .card {
@@ -121,10 +121,12 @@
 }
 
 .card:hover {
-    opacity: 0.5;
-
+    opacity: 0.8;
+    transition: 0.5s;
 }
-
+.card{
+    transition: 0.5s;
+}
 /* feaures section */
 
 .feaures-text {
@@ -455,4 +457,16 @@ color: #F58A07;
 
 .last-card div{
     padding-left: 40px;
+}
+.cards a::after{
+
+    content: "\2192";
+}
+.service-text a::after{
+
+    content: "\2192";
+}
+.last-card a::after{
+
+    content: "\2192";
 }
