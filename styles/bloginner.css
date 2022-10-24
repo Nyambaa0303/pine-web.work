@@ -33,6 +33,8 @@
 .story-img img{
 
     width: 100%;
+    border-radius: 20px;
+    margin-top: 100px;
 }
 .story{
     width:55%;
