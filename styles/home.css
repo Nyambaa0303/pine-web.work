@@ -99,14 +99,21 @@
 
 .card img {
     border-radius: 20px;
+    width: 100%;
 }
 
 .card:hover {
     opacity: 0.8;
-    transition: 0.5s;
+    transition: 0.5s; 
+    background-color: #c2d9ec8c;  
+    border-radius: 20px;
 }
 .card{
     transition: 0.5s;
+}
+.cards a::after{
+
+    content: "\2192";
 }
 /* feaures section */
 
@@ -286,6 +293,10 @@
     line-height: 24px;
     color: #F58A07;
 }
+service-text a::after{
+
+    content: "\2192";
+}
 
 /* cta section */
 
@@ -414,7 +425,7 @@ color: #F58A07;
     display: flex;
     justify-content: space-between;
 }
-.last-cover{
+.last-section{
     background-color: #DCEAF5;
     height: 819px;
 }
@@ -427,6 +438,7 @@ color: #F58A07;
     height: 537px;
     background-color: #FFFFFF;
     border-radius: 20px;
+    transition: 0.8s;
 }
 .last-card img{
     width: 100%;
@@ -436,15 +448,12 @@ color: #F58A07;
 .last-card div{
     padding-left: 40px;
 }
-.cards a::after{
-
-    content: "\2192";
-}
-.service-text a::after{
-
-    content: "\2192";
-}
 .last-card a::after{
 
     content: "\2192";
+}
+.last-card:hover{
+    opacity: 0.8s;
+    transition: 0.8s;
+    background-color: #d6e4ee89;
 }
