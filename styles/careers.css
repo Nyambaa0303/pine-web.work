@@ -67,7 +67,7 @@
 .card:hover{
     opacity: 0.8;
     transition: 0.5s;
-    background: rgba(122, 122, 122, 0.292);
+    background: #a8bccc;
 }
 
 .empy{
@@ -107,6 +107,7 @@
     height: 537px;
     background-color: #FFFFFF;
     border-radius: 20px;
+    transition: 0.8s;
 }
 .last-card img{
     width: 100%;
@@ -116,5 +117,11 @@
 .last-card div{
    padding-left: 40px;
    padding-right: 20px;
+}
+
+.last-card:hover{
+    opacity: 0.8s;
+    transition: 0.8s;
+    background-color: #a8bccc;;
 }
 

@@ -368,7 +368,7 @@ color: #F58A07;
    padding-left: 40px;
    padding-right: 20px;
 }
-.last-card a::after{
 
+.last-card a::after{
     content: "\2192";
 }
