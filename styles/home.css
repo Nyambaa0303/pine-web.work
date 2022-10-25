@@ -1,45 +1,38 @@
 .home {
-
     background-color: #DCEAF5;
     height: 700px;
     position: relative;
 }
 
 .home-face {
-
     display: flex;
     width: 100%;
+    height: 700px;
 }
 
 .home-left-side {
-
     width: 50%;
 }
-
+.home-right-side img{
+    align-self: flex-end;
+    width: 150%;
+}
 .home-click {
-
     display: flex;
     justify-content: space-between;
     width: 70%;
     margin-top: 40px;
     align-items: center;
 }
-
 .home-row {
 
     display: flex;
     flex-direction: column;
-
 }
-
 .home-bottom {
-
     margin-top: 40px;
-
 }
-
 .home-click div {
-
     background-color: #F58A07;
     border-radius: 27px;
     color: white;
@@ -49,38 +42,29 @@
     justify-content: center;
     align-items: center;
 }
-
 .home-click a {
-
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     color: #1D3444;
 }
-
 .home-bottom div {
-
     width: 90%;
     display: flex;
     justify-content: space-between;
 }
 
 .home-right-side {
-
-    position: absolute;
-    right: 0;
-    bottom: -1%;
+   display: flex; 
 }
 
 /* help section */
 
 .help {
-
     height: 740px;
 }
 
 .help h2 {
-
     width: 750px;
     font-style: normal;
     font-weight: 600;
@@ -91,7 +75,6 @@
 }
 
 .help p {
-
     width: 735px;
 }
 
@@ -102,7 +85,6 @@
 }
 
 .cards p {
-
     width: 399px;
     font-style: normal;
     font-weight: 500;
@@ -112,7 +94,6 @@
 }
 
 .card {
-
     width: 30%;
 }
 
@@ -130,7 +111,6 @@
 /* feaures section */
 
 .feaures-text {
-
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -145,13 +125,11 @@
 }
 
 .feaures {
-
     background-color: #EDF7FF;
     height: 665px;
 }
 
 .feaures-text h3 {
-
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
